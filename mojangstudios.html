@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Specify the redirect URL once here
+        const redirectUrl = "https://minecraft.wiki/w/Mojang_Studios";
+
+        // Perform the redirection
+        window.location.href = redirectUrl;
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a id="redirect-link" href="#">link</a>.</p>
+    <script>
+        // Update the fallback link dynamically
+        document.getElementById("redirect-link").href = redirectUrl;
+    </script>
+</body>
+</html>
